@@ -3,8 +3,21 @@ import Data from "../pages/api/MOCK_DATA.json";
 
 const Movies = ({ values }) => {
   const [isActve, setActive] = useState();
+  const [checkedValues, setCheckedValues] = useState([]);
 
-  useEffect(() => {});
+  const handleCheckboxChange = (value) => {
+    if (checkedValues.includes(value)) {
+      // Eğer değer zaten varsa, diziden çıkar.
+      setCheckedValues(checkedValues.filter((item) => item !== value));
+    } else {
+      // Eğer değer yoksa, diziye ekle.
+      setCheckedValues([...checkedValues, value]);
+    }
+  };
+
+  useEffect(() => {
+    console.log(checkedValues);
+  });
   return (
     <div className="">
       {Data.map((m) => (
@@ -103,12 +116,12 @@ const Movies = ({ values }) => {
                     Bilet Al
                   </button>
                   <div
-                    onClick={(e) => setActive([m.movie_id])}
+                    onClick={(e) => handleCheckboxChange(m.movie_id)}
                     className={
                       "cursor-pointer w-max text-[16px] font-[Regular] flex items-center gap-x-[10px] lg:pt-[8px]   "
                     }
                   >
-                    {isActve == m.movie_id ? (
+                    {checkedValues.includes(m.movie_id) ? (
                       <svg
                         width="22"
                         height="22"
@@ -149,7 +162,7 @@ const Movies = ({ values }) => {
                         <path d="M11 7L11 15" stroke="black" stroke-width="2" />
                       </svg>
                     )}
-                    {isActve == m.movie_id ? (
+                    {checkedValues.includes(m.movie_id) ? (
                       <h1 className="">Takvime Eklendi</h1>
                     ) : (
                       <h1 className="">Takvime Ekle</h1>
