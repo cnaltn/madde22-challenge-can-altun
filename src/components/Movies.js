@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Data from "../pages/api/MOCK_DATA.json";
 
 const Movies = ({ values }) => {
-  const [isActve, setActive] = useState();
   const [checkedValues, setCheckedValues] = useState([]);
 
   const handleCheckboxChange = (value) => {
