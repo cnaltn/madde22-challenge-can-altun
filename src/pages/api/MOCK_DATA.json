@@ -81,7 +81,7 @@
     "movie_time_clock": "21:15",
     "movie_img": "https://i.ibb.co/M9LJ6St/last.png",
     "movie_type": "Sinema",
-    "movie_id": "6"
+    "movie_id": "7"
   },
   {
     "movie_title": "Yasemin Sakallıoğlu",
@@ -93,6 +93,6 @@
     "movie_time_clock": "21:15",
     "movie_img": "https://i.ibb.co/Rb9nQdy/red.png",
     "movie_type": "Stand Up",
-    "movie_id": "5"
+    "movie_id": "8"
   }
 ]
