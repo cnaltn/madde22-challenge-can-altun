@@ -12,14 +12,14 @@ const Movies = ({ values }) => {
           <div
             className={
               String(values).includes(m.movie_where)
-                ? "justify-center  container pt-[60px]  flex"
+                ? "justify-center container pt-[60px] flex"
                 : "hidden"
             }
           >
             <div className={"lg:w-[1064px] w-max gap-y-[16px] flex flex-col"}>
               <div
                 className={
-                  "lg:w-full w-[320px] md:w-[360px] border h-max lg:h-[204px]  flex flex-col lg:flex-row  items-center gap-x-5"
+                  "lg:w-full w-[320px] md:w-[360px] border h-max lg:h-[204px] hover:shadow-md transition-shadow duration-200  flex flex-col lg:flex-row  items-center gap-x-5"
                 }
               >
                 <div className="lg:w-[41%] relative w-full bg-black lg:bg-transparent  flex flex-col lg:flex-row  h-[212px] lg:h-full">
@@ -99,7 +99,7 @@ const Movies = ({ values }) => {
                   </p>
                 </div>
                 <div className="p-4 lg:pt-0 lg:pb-0  lg:pl-0 gap-y-[5px]  justify-between  flex flex-row lg:flex-col w-full lg:w-[18%] h-max  lg:justify-center">
-                  <button className="w-[120px] md:w-[150px] lg:w-[166px] font-[Bold]  h-[48px] bg-[#FF0D87] text-white flex items-center justify-center">
+                  <button className="w-[120px] md:w-[150px] lg:w-[166px] font-[Bold]  h-[48px] bg-[#FF0D87] hover:bg-[#a71b61] transition-colors text-white flex items-center justify-center">
                     Bilet Al
                   </button>
                   <div
@@ -156,7 +156,7 @@ const Movies = ({ values }) => {
                     )}
                   </div>
                 </div>
-              </div>
+              </div>{" "}
             </div>
           </div>
         </div>
