@@ -1,0 +1,98 @@
+[
+  {
+    "movie_title": "BKM Yaz Etkinlikleri: Zengin Mutfağı",
+    "movie_where": "Maximum Uniq Hall",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir  ",
+    "movie_time_number": "7 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Salı",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/QkfwCK9/bkm.png",
+    "movie_type": "Tiyatro",
+    "movie_id": "1"
+  },
+  {
+    "movie_title": "Yasemin Sakallıoğlu",
+    "movie_where": "Maximum Uniq Hall",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "8 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Çarş..",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/Rb9nQdy/red.png",
+    "movie_type": "Stand Up",
+    "movie_id": "2"
+  },
+  {
+    "movie_title": "Sinema Keyfi: Rifkin’s Festival",
+    "movie_where": "Maximum Uniq Hall",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "7 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Salı",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/tMBxqjv/kin.png",
+    "movie_type": "Sinema",
+    "movie_id": "3"
+  },
+  {
+    "movie_title": "BKM Yaz Etkinlikleri: Zengin Mutfağı",
+    "movie_where": "Maximum Uniq Hall",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "7 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Salı",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/QkfwCK9/bkm.png",
+    "movie_type": "Tiyatro",
+    "movie_id": "4"
+  },
+  {
+    "movie_title": "Yasemin Sakallıoğlu",
+    "movie_where": "Maximum Uniq Hall",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "7 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Salı",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/Rb9nQdy/red.png",
+    "movie_type": "Stand Up",
+    "movie_id": "5"
+  },
+  {
+    "movie_title": "Sinema Keyfi: Rifkin’s Festival",
+    "movie_where": "Maximum Uniq Hall",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "7 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Salı",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/M9LJ6St/last.png",
+    "movie_type": "Sinema",
+    "movie_id": "6"
+  },
+  {
+    "movie_title": "Sinema Keyfi: Rifkin’s Festival",
+    "movie_where": "Maximum Uniq Lounge",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "9 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Cuma",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/M9LJ6St/last.png",
+    "movie_type": "Sinema",
+    "movie_id": "6"
+  },
+  {
+    "movie_title": "Yasemin Sakallıoğlu",
+    "movie_where": "Maximum Uniq Box",
+    "movie_desc": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+    "movie_time_number": "9 ",
+    "movie_time_month": "Eylül",
+    "movie_time_day": "Cuma",
+    "movie_time_clock": "21:15",
+    "movie_img": "https://i.ibb.co/Rb9nQdy/red.png",
+    "movie_type": "Stand Up",
+    "movie_id": "5"
+  }
+]

@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Bold"; /*Can be any text*/
+  src: local("GalanoGrotesqueBold"),
+    url("../fonts/GalanoGrotesqueBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "ExtraBold"; /*Can be any text*/
+  src: local("GalanoGrotesqueExtraBold"),
+    url("../fonts/GalanoGrotesqueExtraBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "Medium"; /*Can be any text*/
+  src: local("GalanoGrotesqueMedium"),
+    url("../fonts/GalanoGrotesqueMedium.otf") format("truetype");
+}
+@font-face {
+  font-family: "Regular"; /*Can be any text*/
+  src: local("GalanoGrotesqueRegular"),
+    url("../fonts/GalanoGrotesqueRegular.otf") format("truetype");
+}
+
+.Area:hover > svg *,
+.Area:hover {
+  color: #ff0d87;
+  fill: #ff0d87;
+
+  transition: all 0.1s;
+}
+.Area2:hover > svg *,
+.Area2:hover {
+  color: #ff0d87;
+  fill: #ff0d87;
+  stroke: #ff0d87;
+  transition: all 0.1s;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #ffff;
 }
